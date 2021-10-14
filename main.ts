@@ -10,7 +10,7 @@ let mySprite: Sprite = null
 mySprite = sprites.create(assets.image`Table main character`, SpriteKind.Player)
 controller.moveSprite(mySprite, 100, 0)
 scene.setBackgroundImage(assets.image`myImage1`)
-tiles.setTilemap(tilemap`Tilemaplol`)
+tiles.setTilemap(tilemap`Tilemaplol1`)
 scene.cameraFollowSprite(mySprite)
-tiles.placeOnTile(mySprite, tiles.getTileLocation(5, 210))
+tiles.placeOnTile(mySprite, tiles.getTileLocation(5, 161))
 mySprite.ay = 300
