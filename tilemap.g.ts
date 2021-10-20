@@ -663,6 +663,25 @@ namespace myTiles {
 2..............................................................................................................................................................................................................................................................
 2..............................................................................................................................................................................................................................................................
 `, [myTiles.transparency16,myTiles.tile1,sprites.builtin.forestTiles2,myTiles.tile3,myTiles.tile4,sprites.builtin.forestTiles0,sprites.castle.rock0,sprites.castle.saplingPine,sprites.castle.shrub,myTiles.tile6,myTiles.tile7,myTiles.tile9,myTiles.tile10,myTiles.tile15,myTiles.tile16,myTiles.tile18,myTiles.tile23,myTiles.tile22,myTiles.tile11,myTiles.tile12,myTiles.tile13,myTiles.tile20,myTiles.tile24,sprites.builtin.forestTiles10,sprites.builtin.forestTiles9,sprites.builtin.forestTiles11,sprites.builtin.forestTiles13,sprites.builtin.forestTiles15,sprites.dungeon.hazardHole,myTiles.tile21,sprites.swamp.swampTile3,myTiles.tile26,myTiles.tile28,sprites.dungeon.darkGroundNorthEast0,sprites.dungeon.darkGroundNorthWest0,sprites.dungeon.darkGroundSouthWest0,sprites.dungeon.darkGroundSouthEast0,myTiles.tile2,myTiles.tile30,myTiles.tile31,myTiles.tile32,myTiles.tile33,myTiles.tile29,sprites.dungeon.darkGroundWest,sprites.dungeon.darkGroundEast,sprites.dungeon.darkGroundCenter,sprites.dungeon.floorLight0,myTiles.tile34,sprites.dungeon.floorLight2,myTiles.tile36,myTiles.tile37,sprites.castle.saplingOak], TileScale.Sixteen);
+            case "level9":
+            case "level9":return tiles.createTilemap(hex`1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000`, img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`, [myTiles.transparency16], TileScale.Sixteen);
         }
         return null;
     })
